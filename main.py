@@ -78,12 +78,13 @@ def analyze_file():
                         },
                         "dependente": {
                             "nome": "Carlos Alberto",
-                            "data_nascimento": "2001-07-25",
+                            "data_nascimento": "200"-07-25",
                         },
                         "dados_extras": {
                             "plano_saude": "FUNC SP I",
                             "categoria": "APARTAMENTO",
                             "produto": 582
+                            "abrangencia": "XPTO"
                         },
                         "metadados": {
                             "confianca_extracao": 0.94,
@@ -116,7 +117,7 @@ def analyze_file():
                     {
                         "tipo_documento": "RG",
                         "numero_documento": "123456789",
-                        "emissor": "SSP-SP",
+                        "emissor": "SSP-SP", {O emissor deverá ser a informação do campo data emissão. Senão encontrar, procure o campo doc. identidade. Senão encontrar, deixe o campo vazio}
                         "data_emissao": "2015-08-22",
                         "data_validade": "2025-09-12",
                         "titular": {
@@ -126,6 +127,7 @@ def analyze_file():
                     }
                 ]
             }
+            
             
             Responda em português.
             """
