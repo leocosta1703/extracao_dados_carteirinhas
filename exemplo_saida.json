@@ -1,0 +1,80 @@
+Fabio Frischeisen Tomita
+1:05 PM
+{
+  "documentos": [
+	{
+	  "tipo_documento": "Carteirinha",
+	  "numero_documento": "898001160400174",
+	  "emissor": "Sulamerica",
+	  "data_emissao": "2019-02-12",
+	  "data_validade": "26-01",
+
+	  "titular": {
+		"nome": "Ana Carolina Souza",
+		"data_nascimento": "1988-07-25",
+	  },
+	  
+	  "dependente": {
+		"nome": "Carlos Alberto",
+		"data_nascimento": "2001-07-25",
+	  },
+	  
+	  "dados_extras": {
+		"plano_saude": "FUNC SP I",
+		"categoria": "APARTAMENTO",
+		"produto": 582
+	  },
+
+	  "metadados": {
+		"confianca_extracao": 0.94,
+		"data_processamento": "2025-09-09T16:30:00Z"
+	  }
+	},
+	{
+	  "tipo_documento": "RG",
+	  "numero_documento": "123456789",
+	  "emissor": "SSP-SP",
+	  "data_emissao": "2015-08-22",
+	  "data_validade": null,
+
+	  "titular": {
+		"nome": "Ana Carolina Souza",
+		"data_nascimento": "1988-07-25",
+	  },
+	  
+	  "dependente": {
+	  },
+	  
+	  "dados_extras": {
+	  },
+
+	  "metadados": {
+		"confianca_extracao": 0.94,
+		"data_processamento": "2025-09-09T16:30:00Z"
+	  }
+	},
+	{
+	  "tipo_documento": "CNH",
+	  "numero_documento": "123456789",
+	  "emissor": "DETRAN-SP",
+	  "data_emissao": "2018-05-10",
+	  "data_validade": "2028-05-10",
+
+	  "titular": {
+		"nome": "Ana Carolina Souza",
+		"data_nascimento": "1988-07-25",
+	  },
+	  
+	  "dependente": {
+	  },
+	  
+	  "dados_extras": {
+	  },
+
+	  "metadados": {
+		"confianca_extracao": 0.94,
+		"data_processamento": "2025-09-09T16:30:00Z"
+	  }
+	}
+	]
+}

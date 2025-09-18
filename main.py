@@ -97,13 +97,15 @@ def analyze_file():
             {
                 "documentos": [
                     {
-                        "nome_completo": "Ana Carolina Souza",
                         "tipo_documento": "CNH",
-                        "data_nascimento": "1988-07-25",
                         "numero_documento": "123456789",
                         "emissor": "DETRAN-SP",
                         "data_emissao": "2018-05-10",
                         "data_validade": "2028-05-10",
+                        "titular": {
+		                    "nome": "Ana Carolina Souza",
+		                    "data_nascimento": "1988-07-25",
+	                    }
                     }
                 ]
             }
@@ -116,8 +118,11 @@ def analyze_file():
                         "numero_documento": "123456789",
                         "emissor": "SSP-SP",
                         "data_emissao": "2015-08-22",
-                        "data_nascimento": "2025-09-12",
-                        "naturalidade": "São Paulo 
+                        "data_validade": "2025-09-12",
+                        "titular": {
+		                    "nome": "Ana Carolina Souza",
+		                    "data_nascimento": "1988-07-25",
+	                    }
                     }
                 ]
             }
