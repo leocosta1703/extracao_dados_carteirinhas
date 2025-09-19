@@ -101,7 +101,7 @@ def analyze_file():
                         "tipo_documento": "CNH",
                         "numero_documento": "123456789",
                         "emissor": "DETRAN-SP",
-                        "data_emissao": "2018-05-10",
+                        "data_emissao": "2018-05-10", {Para a data_emissao, somente considere o campo data emissão do documento. Senão encontrar, deixe vazio na sua resposta}
                         "data_validade": "2028-05-10",
                         "titular": {
 		                    "nome": "Ana Carolina Souza",
